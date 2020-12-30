@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<style type="text/css">
+	*{ margin:0; padding:0;}
+	#allmap {height:500px;width:100%;overflow: hidden;}
+	</style>
+	<script type="text/javascript" src="api-2.0_kveZk254992yAKqLRCXRVDsm.js"></script>
+	<script type="text/javascript" src="library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+	<link rel="stylesheet" href="library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css">
+</head>
+<body>
+	<div id="allmap"></div>
+<script type="text/javascript">
+	// 百度地图API功能
+    var map = new BMap.Map('allmap');
+    var poi = new BMap.Point(119.465577,32.401531);
+    map.centerAndZoom(poi, 19);
+    map.enableScrollWheelZoom();
+
+    var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+                    '地址：晋城市文昌中路216号（解放桥向东200米大润发广陵店西）<br/>电话：0514-87902111' +
+                  '</div>';
+
+    //创建检索信息窗口对象
+    var searchInfoWindow = null;
+	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+			title  : "晋城男科医院【官网】-山西男科医院",      //标题
+			width  : 280,             //宽度
+			height : 60,              //高度
+			panel  : "panel",         //检索结果面板
+			enableAutoPan : true,     //自动平移
+			searchTypes   :[
+				BMAPLIB_TAB_SEARCH,   //周边检索
+				BMAPLIB_TAB_TO_HERE,  //到这里去
+				BMAPLIB_TAB_FROM_HERE //从这里出发
+			]
+		});
+    var marker = new BMap.Marker(poi); //创建marker对象
+    marker.enableDragging(); //marker可拖拽
+   	searchInfoWindow.open(marker);
+	marker.addEventListener("click", function(e){
+	    searchInfoWindow.open(marker);
+    })
+    map.addOverlay(marker); //在地图中添加marker
+	//var mapType1 = new BMap.MapTypeControl({mapTypes: [BMAP_NORMAL_MAP,BMAP_HYBRID_MAP]});
+	var mapType2 = new BMap.MapTypeControl({anchor: BMAP_ANCHOR_TOP_RIGHT});
+
+	var overView = new BMap.OverviewMapControl();
+	var overViewOpen = new BMap.OverviewMapControl({isOpen:true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT});
+	add_control();
+	function add_control(){
+		//map.addControl(mapType1);          //2D图，卫星图
+		map.addControl(mapType2);          //左上角，默认地图控件
+		map.setCurrentCity("晋城市");        //由于有3D图，需要设置城市哦
+		map.addControl(overView);          //添加默认缩略地图控件
+		//map.addControl(overViewOpen);      //右下角，打开
+	}
+	var labelPosition = new BMap.Point(119.465577,32.401531);
+	var labelOptions = {
+		position: labelPosition,
+		altitude:5
+	};//设置标注点的经纬度位置和高度
+	var label = new BMap.PanoramaLabel('晋城男科医院【官网】-山西男科医院', labelOptions);
+	panorama.addOverlay(label);//在全景地图里添加该标注
+	panorama.setPov(label.getPov()); //修改点的视角，朝向该label
+	
+	label.addEventListener('click', function() { //给标注点注册点击事件
+		panorama.setPov({  //修改点的视角
+			pitch: 10, 
+			heading: 14
+		});
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'fzqiti';
+    src: url('http://www.yznk120.com/css/fonts/FZQiTi-S14S.eot');
+    src: url('http://www.yznk120.com/css/fonts/FZQiTi-S14S.eot') format('embedded-opentype'),
+         url('http://www.yznk120.com/css/fonts/FZQiTi-S14S.woff2') format('woff2'),
+         url('http://www.yznk120.com/css/fonts/FZQiTi-S14S.woff') format('woff'),
+         url('http://www.yznk120.com/css/fonts/FZQiTi-S14S.ttf') format('truetype'),
+         url('http://www.yznk120.com/css/fonts/FZQiTi-S14S.svg#futuramedium') format('svg');
+}
+
+img[src='']{ visibility: hidden; }
+
+.result .position{ position: static; padding-bottom: 0px; }
+
+.header .internationalm_nav .navList{ padding-left: 52px; }
+.header .internationalm_nav .navList li.on .one{ padding: 7px 36px 0 !important; }
+.header .internationalm_nav .navList li a{ padding: 7px 18px 0 !important; }
+.header .internationalm_nav .return a{ width: auto; padding: 0 14px; }
+.internationalm_body .int_banner .img{ background-size: cover !important; height: 630px; }
+.internationalm_body .int_banner .img a{ display: block; width: 100%; height: 100%; }
+.internationalm_body .int_banner .img .con{ width: 664px; height: 296px; padding: 174px 0 160px 78px; color: #FFFFFF; background:url(http://www.yznk120.com/image/images/inter_conback_03.jpg) no-repeat center; }
+.internationalm_body .int_banner .img .con .tit{ letter-spacing: 8px; -webkit-letter-spacing:0px; font-size: 48px; line-height: 1.2; padding-bottom: 20px; font-family: 'fzqiti'; margin-left: -8px; }
+.internationalm_body .int_banner .img .con .int_more{ display: block; width: 91px; font-size: 12px; height: 22px; line-height: 22px; text-align: center; border: 1px solid #FFFFFF; color: #FFFFFF; border-radius: 8px; }
+.internationalm_body .int_banner .img .con i{ display: block; width: 72px; height: 1px; background: #FFFFFF; margin-bottom: 20px; }
+.internationalm_body .int_banner .img .con .p{ font-size: 14px; line-height: 22px; padding-bottom: 50px; width: 330px; }
+.internationalm_body .int_banner .slick-dots{ bottom: 43px; margin-left: 358px; }
+.internationalm_body .int_banner .slick-dots li button{ padding: 0; width: 35px; height: 3px; background: url(http://www.yznk120.com/image/images/whitepng_03.png); }
+.internationalm_body .int_banner .slick-dots li.slick-active button{ background: #FFFFFF; }
+.internationalm_body .int_banner .img .con .int_more:hover{ background: #01763a; border-color: #01763a; }
+.internationalm_body .int_banner .slick-dots li button:before{ background: transparent; }
+
+.int_part2{ padding: 60px 0; }
+.int_part2 .left{ width: 660px; }
+.int_part2 .left .block{ width: 210px; height: 157px; margin-right: 10px; }
+.int_part2 .left .b1{ background: #01763a; }
+.int_part2 .left .b2{ background: #55a5aa; }
+.int_part2 .left .b3{ background: #e5ca8f; }
+.int_part2 .left .block a{ display: block; width: 100%; height: 100%; }
+.int_part2 .left .block .icon{ padding: 35px 0 15px; }
+.int_part2 .left .block .icon img{ display: block; width: 52px; height: 52px; margin: 0 auto; }
+.int_part2 .left .block .tit{ font-size: 16px; color: #FFFFFF; text-align: center; }
+.int_part2 .right{ width: 560px; height: 117px; padding-top: 40px; box-shadow: 0px 0px 10px rgba(0,0,0,.1); }
+.int_part2 .right .tit{ text-align: center; font-size: 18px; position: relative; margin-bottom: 30px; }
+.int_part2 .right .tit:before,.int_part2 .right .tit:after{ content: ""; width: 190px; height: 1px; background: #eeeeee; position: absolute; top: 50%; }
+.int_part2 .right .tit:before{ left: 35px; }
+.int_part2 .right .tit:after{ right: 35px; }
+.int_part2 .right .search-box{ text-align: center; }
+.int_part2 .right .input{ width: 93px; margin-left: 0; margin-right: 8px; }
+.int_part2 .right .input input{ height: 27px; }
+.int_part2 .right .butn1{ width: 110px; background: #528eb5; margin-left: 0; height: 45px; line-height: 45px; }
+.int_part2 .right .butn1 img{ display: inline-block; margin-right: 10px; width: 17px; height: 18px; }
+
+.int_part3{ width: 1251px; margin-left: -10px; padding-bottom: 60px; }
+.int_part3 .li{ float: left; width:397px; -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.2); box-shadow: 0px 0px 10px rgba(0,0,0,0.2);  behavior: url(http://www.yznk120.com/css/css/PIE.htc); margin:0 10px; }
+.int_part3 .li .con{ height:210px; background:#fff; }
+.int_part3 .li .tit{ padding:25px 20px 0; }
+.int_part3 .li .tit h3{ font-size:24px; line-height:1.1; padding-bottom: 15px; }
+.int_part3 .li .tit h3 a.fr{ float: right; font-size:12px; line-height:24px; transition:all 0.3s; -webkit-transition:all 0.3s; width:90px; border:1px solid #eee; border-radius:10px; text-align: center; color:#474747; }
+.int_part3 .li .tit h3 a.fr:hover{ background:#01763a; color:#fff; border-color:#01763a; }
+.int_part3 .li li{ line-height:40px; border-top:1px solid #eee; font-size:14px; }
+.int_part3 .li li.firstli{ border: none; }
+
+.int_part4{ padding-bottom: 65px; }
+.int_part4 .left{ width: 308px; height: 504px; position: relative; }
+.int_part4 .a{ display: block; width: 100%; height: 100%; }
+.int_part4 .a .intp4jpg{ width: 100%; height: 100%; }
+.int_part4 .left .a .con{ position: absolute; bottom: 70px; left: 0; right: 0; margin: auto; }
+.int_part4 .left .a .con .icon{ width: 69px; height: 89px; margin: 0 auto; }
+.int_part4 .a .con .icon img{ width: 100%; height: 100%; }
+.int_part4 .a .con .intp4_tit{ font-size: 18px; text-align: center; padding-top: 20px; color: #FFFFFF; }
+.int_part4 .right{ width: 922px; height: 504px; }
+.int_part4 .right .li{ float: left; width: 307px; height: 252px; position: relative; }
+.int_part4 .right .li .a .con{ position: absolute; top: 80px; left: 0; right: 0; margin: auto; }
+.int_part4 .right .li .a .icon{ width: 72px; height: 70px; margin: 0 auto; }
+.int_part4 .right .rli1{ background: #528eb5; }
+.int_part4 .right .rli2 .intp4_tit{ color: #333; }
+.int_part4 .right .rli5{ background: #e5ca8f; }
+.int_part4 .right .rli6{ background: #01763a; }
+
+.int_part5{ padding-bottom: 60px; }
+.int_part5 .tit{ padding-bottom: 33px; line-height: 1; }
+.int_part5 .tit .intit{ margin: 0 15px; cursor: pointer; font-size: 24px; color: #333333; }
+.int_part5 .tit .intit.on{ color: #55a5aa; }
+.int_part5  .intp5con{ position: relative; height: 223px; }
+.int_part5  .int5child{ width: 101%; margin-left: -.5%; position: relative; position: absolute; top: 0; left: 0; opacity: 0; visibility: hidden; z-index: 99; }
+.int_part5  .int5child.on{ opacity: 1; visibility: visible; z-index: 999; }
+
+.int_part5 .int5child .img{ float: left; width: 397px; height: 223px; }
+.int_part5 .int5child .img .imgin{ width: 100%; height: 100%; margin: 0 auto; overflow: hidden; }
+.int_part5 .int5child .img .imgin img{ width: 100%; height: 100%; }
+.int_part5 .int5child .slick-prev,.int_part5 .int5child .slick-next{position: relative; position: absolute; top: -49px; display: block; width: 26px; height: 26px; border: 1px solid #ccc; text-align: center; line-height: 16px; border-radius: 5px;}
+.int_part5 .int5child .slick-prev{ background: url(http://www.yznk120.com/image/images/illnesscenter-icon2l_01.png) no-repeat center; left: 94.5%; }
+.int_part5 .int5child .slick-next{ background: url(http://www.yznk120.com/image/images/illnesscenter-icon2r_02.png) no-repeat center; right: .5%; }
+
+.int_part6{ padding-bottom: 100px; height: 491px; }
+.int_part6 .left{ width: 615px; color: #FFFFFF; }
+.int_part6 .left .ltop{ padding: 64px 47px 42px 37px; background: #55a5aa; }
+.int_part6 .left .ltop .ltleft{ width: 250px; }
+.int_part6 .left .contact{ font-size: 24px; line-height: 1.1; }
+.int_part6 .left .lcon{ padding-top: 20px; }
+.int_part6 .left .lcon.lc1{ padding-top: 25px; }
+.int_part6 .left .lcon .tit{ font-size: 14px; padding-bottom: 8px; }
+.int_part6 .left .lcon .add{ font-size: 14px; }
+.int_part6 .left .lcon .numb{ font-size: 30px; font-family: arial; line-height: 0.9; }
+.int_part6 .left .ltop .ltright{ width: 245px; padding-top: 90px; }
+.int_part6 .left .ltop .ltright .qr_n{ text-align: center; margin-left: 12px; }
+.int_part6 .left .ltop .ltright .qr_n .qr{ width: 110px; height: 110px; }
+.int_part6 .left .ltop .ltright .qr_n .qr img{ width: 100%; height: 100%; }
+.int_part6 .left .ltop .ltright .qr_n .name{ padding-top: 13px; font-size: 14px; }
+.int_part6 .left .lbottom{ padding: 37px; background: #48999e; }
+.int_part6 .left .lbottom a{ color: #FFFFFF; }
+.int_part6 .left .lbottom .tit{ font-size: 24px;padding-bottom: 13px; line-height: 1.1; }
+.int_part6 .left .lbottom .p{ font-size: 14px; line-height: 22px; width: 310px; }
+.int_part6 .right{ width: 535px; padding: 36px 40px; box-shadow: 0px 0px 10px rgba(0,0,0,.1); }
+.int_part6 .right .map{ width: 536px; height: 419px; }
+.int_part6 .right .map img{ width: 100%; height: 100%; }
+
+.international_footer .copy .right{ float: left; text-align: left; }
+.international_footer .footer_logo{ float: right; width: 203px; height: 175px; }
+.international_footer .footer_logo a{ display: block; }
+.international_footer .footer_logo a img{ width: 100%; height: 100%; }
+.international_footer .copy .left a{ color: #B2B2B2; }
+
+.about1{ padding: 70px 0 110px; position: relative; }
+.about1 .ab1img{ width: 750px; height: 514px; }
+.about1 .ab1img img{ width: 100%; height: 100%; }
+.about1 .ab1text{ color: #333333; max-height: 338px; box-shadow: 0px 0px 10px rgba(0,0,0,.1); padding: 67px 49px 50px 52px; background: #FFFFFF; width: 516px; position: absolute; right: 0; top: 115px; }
+.about1 .ab1text .tit{ font-size: 24px; line-height: 1.1; padding-bottom: 25px; }
+.about1 .ab1text .p{ font-size: 14px; line-height: 22px; padding-bottom: 25px; }
+.about1 .ab1text .lastp{ text-align: right; }
+
+.about2{ padding-bottom: 60px; }
+.about2 .ab2left{ width: 490px; height: 233px; padding: 107px 65px 75px 60px; background: #55a5aa; color: #FFFFFF; }
+.about2 .ab2left .tit{ font-size: 24px; line-height: 1.1; padding-bottom: 25px; }
+.about2 .ab2left .p{ font-size: 14px; line-height: 22px; padding-bottom: 20px; }
+.about2 .ab2right{ width: 615px; height: 415px; }
+.about2 .ab2right img{ width: 100%; height: 100%; }
+
+.about3{ padding-bottom: 70px; }
+.about3 .ab3top .img{ width: 615px; height: 300px; }
+.about3 .ab3top .img img{ width: 100%; height: 100%; }
+.about3 .ab3top .text{ padding: 57px 49px 55px 62px; width: 504px; height: 188px; box-shadow: 0px 0px 10px rgba(0,0,0,.1); }
+.about3 .ab3top .text .tit{ font-size: 24px; line-height: 1.1; padding-bottom: 35px; }
+.about3 .ab3top .text .p{ font-size: 14px; line-height: 22px; }
+.about3 .ab3bottom .ab3bl{ color: #FFFFFF; background: #e5ca8f; padding: 79px 55px 67px 52px; width: 508px; height: 154px; }
+.about3 .ab3bottom .ab3bl .tit{ font-size: 24px; line-height: 1.1; padding-bottom: 25px; }
+.about3 .ab3bottom .ab3bl .p{ font-size: 14px; line-height: 22px; }
+.about3 .ab3bottom .ab3br{ width: 615px; }
+.about3 .ab3bottom .ab3br .img{ width: 308px; height: 300px; }
+.about3 .ab3bottom .ab3br .img img{ width: 100%; height: 100%; }
+.about3 .ab3bottom .ab3br .text{ background: #55a5aa; padding: 67px 45px 58px 50px; color: #FFFFFF; width: 212px; height: 175px; }
+.about3 .ab3bottom .ab3br .text .tit{ font-size: 24px; line-height: 1.1; padding-bottom: 25px; }
+.about3 .ab3bottom .ab3br .text .p{ font-size: 14px; line-height: 22px; }
+
+.internationalab_body .icu154{ margin-top: 0; }
+.internationalab_body .icu154 .foucs{ margin-top: 0; }
+.internationalab_body .icu154 .foucs:after{ top: 53.1%; }
+.internationalab_body .icu154 .foucs .a{ top: 53.1%; }
+
+.internationalab_body .nurse4{ background: url(http://www.yznk120.com/image/images/hornorback_02.jpg); background-size: cover; padding: 60px 0 65px; overflow: hidden; }
+.internationalab_body .nurse4 .t{ margin-bottom: 15px; text-align: center;}
+.internationalab_body .nurse4 .h1{ font-size: 24px; line-height: 1;}
+.internationalab_body .nurse4 .carousel{ position: relative;}
+.internationalab_body .nurse4 .carousel:before{ content: ''; position: absolute; left: 0; right: 0; bottom: 11px; width: 1180px; margin: auto; border-bottom: 1px solid #d3d3d3;}
+.internationalab_body .nurse4 .list{ position: relative; height: 289px;}
+.internationalab_body .nurse4 .list li{ position: relative; float: left; width: 298px; height: 289px; margin: 20px 6px 0; padding-bottom: 25px; color: #d3d3d3;}
+.internationalab_body .nurse4 .list li:after{ content: ''; position: absolute; left: 0; right: 0; bottom: 5px; width: 8px; height: 8px; margin: auto; border-radius: 50%; border: 2px solid; background-color: #fff;}
+.internationalab_body .nurse4 .img{ margin-bottom: 16px; height: 212px; box-shadow: 0px 0px 18px 0px rgba(1, 1, 1, 0.08); behavior: url(http://www.yznk120.com/css/css/PIE.htc); overflow: hidden;}
+.internationalab_body .nurse4 .img img{ display: block; width: 100%;}
+.internationalab_body .nurse4 .p{ height: 44px; overflow: hidden; font-size: 14px; line-height: 22px; text-align: center; color: #333;}
+.internationalab_body .nurse4 .list li:hover{ color: #01763a;}
+.internationalab_body .nurse4 .list li:hover .p{ color: #01763a;}
+.internationalab_body .nurse4 .prev, .nurse4 .next{ position: absolute; bottom: 0; background: left no-repeat; width: 25px; height: 25px; cursor: pointer; z-index: 2;}
+.internationalab_body .nurse4 .prev{ left: 50%; margin-left: -615px; background-image: url(http://www.yznk120.com/image/xf/prev1.png);}
+.internationalab_body .nurse4 .next{ right: 50%; margin-right: -615px; background-image: url(http://www.yznk120.com/image/xf/next1.png);}
+.internationalab_body .nurse4 .prev:hover, .nurse4 .next:hover{ background-position: right;}
+.internationalab_body .nurse4 .disabled, .nurse4 .disabled:hover{ background-position: left; opacity: 0.5; cursor: default;}
+.internationalab_body .int_part5{ padding-bottom: 75px; }
+
+
+.pubc-box .list .item.i2 .img{ background: url(http://www.yznk120.com/image/images/icon1f_03.png) no-repeat center; }
+.pubc-box .list .item.i2:hover .img{ background: url(http://www.yznk120.com/image/images/icon1_03.png) no-repeat center; }
+
+.pubc-box .list .item.i3 .img{ background: url(http://www.yznk120.com/image/images/icon2_03.png) no-repeat center; }
+.pubc-box .list .item.i3:hover .img{ background: url(http://www.yznk120.com/image/images/icon2f_03.png) no-repeat center; }
+
+.pubc-box .list .item.i4 .img{ background: url(http://www.yznk120.com/image/images/icon3_03.png) no-repeat center; }
+.pubc-box .list .item.i4:hover .img{ background: url(http://www.yznk120.com/image/images/icon3f_03.png) no-repeat center; }
+
+.pubc-box .list .item.i5 .img{ background: url(http://www.yznk120.com/image/images/icon4_03.png) no-repeat center; }
+.pubc-box .list .item.i5:hover .img{ background: url(http://www.yznk120.com/image/images/icon4f_03.png) no-repeat center; }
+
+.pubc-box .list .item.i6 .img{ background: url(http://www.yznk120.com/image/images/icon5_03.png) no-repeat center; }
+.pubc-box .list .item.i6:hover .img{ background: url(http://www.yznk120.com/image/images/icon5f_03.png) no-repeat center; }
+
+.pubc-box .list .item.i7 .img{ background: url(http://www.yznk120.com/image/images/icon6_03.png) no-repeat center; }
+.pubc-box .list .item.i7:hover .img{ background: url(http://www.yznk120.com/image/images/icon6f_03.png) no-repeat center; }
+
+.international_footer .copy .siteMap{ padding-bottom: 10px; }
+.international_footer .copy .left p{ padding-bottom: 5px; }
+.international_footer{ background: url(http://www.yznk120.com/image/images/footerback_02.jpg) no-repeat center !important; background-size: cover !important; }
+
+.internationalm_body .int_banner.w1366 .img .con{ width: 405px; padding-left: 47px; }
+.internationalm_body .int_banner.w1366 .slick-dots{ margin-left: 348px; }
+
+
+@media only screen and (max-width:1367px ) {
+	.internationalm_body .int_banner .img .con{ width: 405px; padding-left: 47px; }
+	.internationalm_body .int_banner .slick-dots{ margin-left: 348px; }
+	
+}
+
+@media only screen and (max-width: 1279px ) {
+	#footer .footer_in{ width:984px}
+	#footer .flogo{ padding:0 0 0 0}
+	#footer .fnav dl{ width:130px}
+	#footer .fnav{ width:410px;margin-top:10px;}
+	
+	
+	
+	
+	
+	
+	
+	
+	.internationalm_body .int_banner .img{ height: 500px; }
+	.internationalm_body .int_banner .img .con{ width: 450px; height: 340px; padding: 80px 0 80px 39px; }
+	.internationalm_body .int_banner .slick-dots{ margin-left: 265px; }
+	.int_part2{ padding: 40px 0; }
+	.int_part2 .left{ width: 43%; }
+	.int_part2 .left .block{ width: 31%; height: auto; margin-right: 2%; }
+	.int_part2 .left .block .icon{ padding: 20px 0 10px; }
+	.int_part2 .left .block .icon img{ width: 40px; height: 40px; }
+	.int_part2 .left .block .tit{ padding-bottom: 25px; }
+	.int_part2 .right{ padding-top: 25px; height: 85px; }
+	.int_part2 .right .tit{ margin-bottom: 15px; }
+	.int_part3 .li{ width: 32%; margin: 0 0.66%; }
+	.int_part3{ width: 100%; margin-left: 0; padding-bottom: 40px; }
+	.int_part4 .left{ width: 25%; height: 400px; }
+	.int_part4 .right{ width: 75%; height: 310px; }
+	.int_part4 .right .li{ width: 33.3%; height: 200px; }
+	.int_part4 .right .li .a .con{ top: 50px; }
+	.int_part5 .int5child .slick-prev{ left: 93%; }
+	.int_part6{ height: auto; }
+	.int_part6 .left{ width: 50%; }
+	.int_part6 .right{ width: 40%; padding: 5%; }
+	.int_part6 .right .map{ width: 100%; height: 100%; }
+	.int_part6 .left .ltop{ padding: 23px 37px; }
+	.int_part6 .left .ltop .ltleft{ width: 60%; }
+	.int_part6 .left .ltop .ltright{ width: 30%; padding-top: 10px; }
+	.int_part6 .left .ltop .ltright .qr_n .qr{ width: 80px; height: 80px; }
+	.int_part6 .left .ltop .ltright .qr_n{ padding-bottom: 10px; }
+	.int_part6 .left .lbottom{ padding: 15px 37px; }
+	.footer .copy .left{ width: 60%; float: left; }
+	
+	.about2 .ab2left{ width: 40%; padding: 50px 5% 35px; }
+	.about2 .ab2right{ width: 50%; height: 318px; }
+	.about3 .ab3top .img{ width: 50%; height: 298px; }
+	.about3 .ab3top .text{ width: 43.8%; height: auto; padding: 3.1%; }
+	.about3 .ab3bottom .ab3bl{ width: 40%; padding: 3% 5%; height: auto; }
+	.about3 .ab3bottom .ab3br{ width: 50%; }
+	.about3 .ab3bottom .ab3br .img{ width: 50%; height: 242px; }
+	.about3 .ab3bottom .ab3br .text{ width: 40%; padding: 5%; height: auto; }
+	.about3 .ab3bottom .ab3br .text .tit{ padding-bottom: 13px; }
+	.internationalab_body .nurse4 .carousel:before{ width: 934px; }
+	.internationalab_body .nurse4 .next{ margin-right: -492px; }
+	.internationalab_body .nurse4 .prev{ margin-left: -492px; }
+	
+}
+
+@media only screen and (max-width: 1023px ) {
+	.rightNav{ display: block; }
+	.fnav{ display:none}
+	#footer .footer_in{ width:710px;}
+	.internationalm_body .int_banner .img{ height: 400px; }
+	.internationalm_body .int_banner .img .con{ width: 400px; height: ; padding: 40px 0 40px 20px; }
+	.internationalm_body .int_banner .slick-dots{ margin-left: 165px; }
+	.internationalm_body .int_banner .img .con .tit{ font-size: 0.3rem; }
+	.int_part2 .left{ width: 100%; float: none; margin-bottom: 20px; }
+	.int_part2 .left .block{ width: 32%; margin-right: 2%; }
+	.int_part2 .left .block:last-child{ margin-right: 0; }
+	.int_part2 .right{ width: 100%; float: none; }
+	.int_part2 .right .input{ width: 18%; }
+	.int_part4 .left{ height: 310px; }
+	.int_part4 .right .li{ height: 155px; }
+	.int_part4 .right .li .a .con{ top: 35px; }
+	.int_part4 .right .li .a .icon{ width: 48px; height: 47px; }
+	.int_part5 .int5child .slick-prev{ left: 91%; }
+	.int_part3 .li .tit h3{ font-size: 18px; }
+	.int_part6 .left{ float: none; width: 100%; margin-bottom: 20px; }
+	.int_part6 .right{ width: 90%; padding: 5%; float: none; }
+	.int_part6 .left .ltop .ltright .qr_n .qr{ width: 110px; height: 110px; }
+	.int_part6 .left .ltop .ltright{ width: 40%; padding-top: 40px; }
+	
+	.about1 .ab1img{ width: 100%; height: auto; }
+	.about1 .ab1text{ position: static; width: calc(100% - 101px); }
+	.about1{ padding-bottom: 60px; }
+	.about2 .ab2left{ height: auto; padding: 30px 5% 20px; }
+	.about2 .ab2left .tit{ padding-bottom: 15px; }
+	.about2 .ab2left .p{ padding-bottom: 7px; }
+	.about2 .ab2left .p:last-child{ padding-bottom: 0; }
+	.about1 .ab1text .p{ padding-bottom: 7px; }
+	.about3 .ab3top .text .tit{ padding-bottom: 8px; }
+	.about3 .ab3bottom .ab3bl{ width: 90%; padding: 5%; }
+	.about3 .ab3bottom .ab3br{ width: 100%; }
+	.about3 .ab3bottom .ab3br .img{ height: auto; width: 50%;   }
+	.about3 .ab3bottom .ab3br .text{ height: 274px; }
+	.nurse4 .carousel:before{ display: none; }
+	.internationalab_body .nurse4 .list li{ width: 2.5rem; height: 2.8rem; margin: 0.2rem 0.05rem 0; padding-bottom: 0; }
+	.internationalab_body .nurse4 .list li:after{ display: none; }	
+	.internationalab_body .nurse4 .next,.internationalab_body .nurse4 .prev{ top: 0.9rem; width: 0.5rem; height: 0.5rem; background-size: 200%; }
+	.internationalab_body .nurse4 .img{ height: auto; }
+	.internationalab_body .nurse4 .p{ font-size: 0.15rem; line-height: 1.3; height: auto; }
+	.int_part4 .left .a .con .icon{ width: 0.5rem; height: 0.7rem; }
+	.internationalab_body .nurse4 .prev{ left: 0.3rem;right: auto;margin-left: 0; }
+	.internationalab_body .nurse4 .next{ right: 0.3rem;left: auto;margin-right: 0; }
+	
+}
+
+@media only screen and (max-width: 750px ) {
+	 #footer .footer_in{ padding:0 0.2rem}
+	 #footer .faddr{ font-size:0.2rem; width:100%;}
+	 #footer .faddr .b span{ font-weight:normal}
+	 #footer .faddr .b{ text-align:center}
+	 #footer .footer_in{ width:99%; padding:0}
+	.flogo{ display:none}
+	.rightNav{ display: block; }
+	.int_part2 .left .block{ width: 26.2%; }
+	.internationalm_body .int_banner .slick-dots{ bottom: 0.3rem; margin-left: 1.8rem; }
+	.internationalm_body .int_banner .img .con .p{ display: none; }
+	.internationalm_body .int_banner .img{ height: 4rem; min-height: 4rem; }
+	.internationalm_body .int_banner .img .con{ width: 3rem; height: auto; padding: 1.4rem 0.3rem; }
+	.internationalm_body .int_banner .img .con .tit{ text-align: center; }
+	.internationalm_body .int_banner .img .con .int_more{ font-size: 0.24rem; margin: 0 auto; }
+	.internationalm_body .int_banner .img .con i{ display: none; }
+	.int_part2 .left .block .tit{ font-size: 0.24rem; }
+	.int_part2 .right .tit{ font-size: 0.3rem; margin-bottom: 0.3rem; }
+	.int_part2 .right{ height: auto; padding-bottom: 0.3rem; }
+	.int_part2 .right .tit:before, .int_part2 .right .tit:after{ width: 2rem; }
+	.int_part2 .right .input{ width: 96%; padding: 2% 3%; display: block; margin: 0 auto 0.2rem; }
+	.int_part2 .right .butn1{ width: 96%; height: 0.6rem; line-height: 0.6rem; font-size: 0.3rem; }
+	.int_part3 .li{ width: 100%; margin-bottom: 0.4rem; padding: 0; }
+	.int_part3 .li .tit h3{ font-size: 0.3rem; }
+	.int_part3 .li li{ font-size: 0.24rem; line-height: 0.6rem; }
+	.int_part3 .li .con{ height: auto; }
+	.int_part3 .li .con ul{ padding-bottom: 0.2rem; }
+	.int_part3 .li .tit h3 a.fr{ width: auto;padding: 0 0.2rem;line-height: 0.4rem;border-radius: 0.2rem;font-size: 0.2rem;margin-top: -0.05rem; }
+	.int_part3 .li .img{ padding-bottom: 57%; position: relative; }
+	.int_part3 .li .img a{ position: absolute; width: 100%; height: 100%; top: 0; left: 0; }
+	.int_part3 .li img{ display: block; width: 100%; height: 100%; }
+	.int_part4{ position: relative; }
+	.int_part4 .left{ width: 50%; }
+	.int_part4 .left{ height: 5.5rem; }
+	.int_part4 .right{ width: 100%; height: auto; }
+	.int_part4 .right .li{ height: 2.75rem; width: 50%; }
+	.int_part4 .right .rli1{ position: absolute; top: 0; right: 0; }
+	.int_part4 .right .rli2{ position: absolute; top: 2.75rem; right: 0; }
+	.int_part4 .a .con .intp4_tit{ font-size: 0.3rem; }
+	.int_part4 .right .li .a .con{ top: 0.5rem; }
+	.int_part4 .left .a .con .icon{ width: 1rem; height: 1.2rem; }
+	.int_part5 .intp5con{ height: 3.8rem; }
+	.int_part5 .int5child .img{ width: 100%; height: auto; }
+	.int_part5 .int5child .img .imgin img{ width: 100%; height: auto; }
+	.int_part6 .left .ltop .ltleft{ width: 100%; float: none; }
+	.int_part6 .left .ltop .ltright{ width: 100%; float: none; }
+	.int_part6 .left .ltop .ltright .qr_n{ width: 46%; margin: 0 2%; }
+	.int_part6 .left .ltop .ltright .qr_n .qr{ width: 100%; height: auto; }
+	.int_part5 .tit .intit{ font-size: 0.3rem; }
+	.int_part6 .left .contact{ font-size: 0.3rem; }
+	.int_part6 .left .ltop{ padding: 0.4rem 0.3rem; }
+	.int_part6 .left .lcon .tit{ font-size: 0.24rem; }
+	.int_part6 .left .lcon .add{ font-size: 0.24rem; }
+	.int_part6 .left .lbottom{ padding: 0.3rem; }
+	.int_part6 .left .lbottom .tit{ font-size: 0.3rem; }
+	.int_part6 .left .lbottom .p{ width: 100%; font-size: 0.24rem; line-height: 1.5; }
+	.int_part6 .left .lcon .numb{ font-size: 0.5rem; }
+	
+	.footer .copy .left{ width: 95%; margin: 0 auto; float: none; text-align: left; }
+	.international_footer .footer_logo{ text-align: center; float: none; width: 2rem; height: 1.7rem; margin: 0 auto; }
+	.international_footer .footer_logo a{ height: 100%; }
+	
+	.about1 .ab1text{ width: 90%; padding: 5%; }
+	.about1 .ab1text .tit{ font-size: 0.3rem; padding-bottom: 0.3rem; }
+	.about1 .ab1text .p{ font-size: 0.24rem; line-height: 1.5; padding-bottom: 0.2rem; }
+	.about3 .ab3top .img{ width: 100%; height: auto; }
+	.about3 .ab3top .text{ width: 90%; padding: 5%; }
+	.about2,.about1{ padding-bottom: 0.4rem; }
+	.about2 .ab2left .tit{ font-size: 0.3rem; }
+	.about2 .ab2left .p{ font-size: 0.24rem; line-height: 1.5; padding-bottom: 0.2rem; }
+	.about2 .ab2left{ padding: 5%; }
+	.about3 .ab3bottom .ab3bl{ margin: 0.4rem 0; }
+	.about3 .ab3top .text .tit{ font-size: 0.3rem; padding-bottom: 0.2rem; }
+	.about3 .ab3top .text .p{ font-size: 0.24rem; line-height: 1.5; padding-bottom: 0.2rem; }
+	.about2 .ab2right{ float: none; width: 100%; height: auto; }
+	.about2 .ab2left{ width: 90%; }
+	.about3 .ab3bottom .ab3br .img{ width: 100%; height: auto; }
+	.about3 .ab3bottom .ab3br .text{ width: 90%; height: auto; }
+	.about3 .ab3bottom .ab3bl .tit{ font-size: 0.3rem; padding-bottom: 0.2rem; }
+	.about3 .ab3bottom .ab3bl .p{ font-size: 0.24rem; line-height: 1.5; }
+	.about3 .ab3bottom .ab3br .text .tit{ font-size: 0.3rem; padding-bottom: 0.2rem; }
+	.about3 .ab3bottom .ab3br .text .p{ font-size: 0.24rem; line-height: 1.5; }
+	.internationalab_body .nurse4 .p{ font-size: 0.24rem;}
+	.internationalab_body .nurse4 .h1{ font-size: 0.3rem; }
+	.about3{ padding-bottom: 0.6rem; }
+	.int_part5 .int5child .slick-prev{ left: 83%; }
+	.internationalab_body .nurse4 .prev{ background: url(http://www.yznk120.com/image/images/next1r_01.png) no-repeat center; }
+	.internationalab_body .nurse4 .prev:hover{ background: url(http://www.yznk120.com/image/images/next1g_02.png) no-repeat center; }
+	.internationalab_body .nurse4 .next{ background: url(http://www.yznk120.com/image/images/next1_01.png) no-repeat center; }
+	.internationalab_body .nurse4 .next:hover{ background: url(http://www.yznk120.com/image/images/next1gr_02.png) no-repeat center; }
+	.internationalab_body .icu154 .foucs .a.next{ background: #FFFFFF url(http://www.yznk120.com/image/images/hwr_01.png) no-repeat center; background-size: cover; }
+	.internationalab_body .icu154 .foucs .a.prev{ background: #FFFFFF url(http://www.yznk120.com/image/images/hwl_01.png) no-repeat center; background-size: cover; }
+	.internationalab_body .icu154 .foucs .a.next.xx{ background: #FFFFFF url(http://www.yznk120.com/image/images/next1_01.png) no-repeat center; background-size: cover; }
+	.internationalab_body .icu154 .foucs .a.prev.xx{ background: #FFFFFF url(http://www.yznk120.com/image/images/next1r_01.png) no-repeat center; background-size: cover; }
+	
+}
+@media only screen and (min-width:1279px ) {
+	
+	.int_part4 .left:hover .icon{ animation:rot 0.5s; -webkit-animation:rot 0.5s; }
+	.int_part4 .right .li:hover .icon{ animation:rot 0.5s; -webkit-animation:rot 0.5s; }
+	
+	.about1 .ab1img{ transform: translateX(-50px); -webkit-transform: translateX(-50px); opacity: 0; transition: all 0.8s; -webkit-transition: all 0.8s; }
+	.about1 .ab1img.show{ transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; }
+	
+	.about1 .ab1text{ transform: translateX(50px); -webkit-transform: translateX(50px); opacity: 0; transition: all 0.8s; -webkit-transition: all 0.8s; }
+	.about1 .ab1text.show{ transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; }
+	
+	.about2 .ab2left{ transform: translateX(-50px); -webkit-transform: translateX(-50px); opacity: 0; transition: all 0.8s; -webkit-transition: all 0.8s; }
+	.about2 .ab2left.show{ transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; }
+	
+	.about2 .ab2right{ transform: translateX(50px); -webkit-transform: translateX(50px); opacity: 0; transition: all 0.8s; -webkit-transition: all 0.8s;  }
+	.about2 .ab2right.show{ transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; }
+	
+	.about3 .ab3top .img{ transform: translateX(-50px); -webkit-transform: translateX(-50px); opacity: 0; transition: all 0.8s; -webkit-transition: all 0.8s; }
+	.about3 .ab3top .img.show{ transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; }
+	
+	.about3 .ab3top .text{ transform: translateX(50px); -webkit-transform: translateX(50px); opacity: 0; transition: all 0.8s; -webkit-transition: all 0.8s; }
+	.about3 .ab3top .text.show{ transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; }
+	
+	.about3 .ab3bottom .ab3bl{ transform: translateX(-50px); -webkit-transform: translateX(-50px); opacity: 0; transition: all 0.8s; -webkit-transition: all 0.8s; }
+	.about3 .ab3bottom .ab3bl.show{ transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; }
+	
+	.about3 .ab3bottom .ab3br{ transform: translateX(50px); -webkit-transform: translateX(50px); opacity: 0; transition: all 0.8s; -webkit-transition: all 0.8s; }
+	.about3 .ab3bottom .ab3br.show{ transform: translateX(0px); -webkit-transform: translateX(0px); opacity: 1; }
+	.int_part5 .int5child .img:hover img{ transform: scale(1.1); -webkit-transform: scale(1.1); transition: all 1.2s; -webkit-transition: all 1.2s; }
+	
+	@keyframes rot{ 
+		0% { transform:rotate(0deg); -webkit-transform:rotate(0deg); }
+		25% { transform:rotate(5deg); -webkit-transform:rotate(5deg); }
+		50% { transform:rotate(-5deg); -webkit-transform:rotate(-5deg); }
+		75% { transform:rotate(5deg); -webkit-transform:rotate(5deg); }
+		100% { transform:rotate(0deg); -webkit-transform:rotate(0deg); }
+	}
+	@-webkit-keyframes rot{
+		0% { transform:rotate(0deg); -webkit-transform:rotate(0deg); }
+		25% { transform:rotate(5deg); -webkit-transform:rotate(5deg); }
+		50% { transform:rotate(-5deg); -webkit-transform:rotate(-5deg); }
+		75% { transform:rotate(5deg); -webkit-transform:rotate(5deg); }
+		100% { transform:rotate(0deg); -webkit-transform:rotate(0deg); }
+	}
+}
